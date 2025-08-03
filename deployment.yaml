@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-dio
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dio
+  template:
+    metadata:
+      labels:
+        app: dio
+    spec:
+      containers:
+        - name: app-dio
+          image: seu-usuario/seu-app:latest
+          ports:
+            - containerPort: 3000
