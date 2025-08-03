@@ -16,6 +16,31 @@ Este projeto foi desenvolvido como parte do bootcamp da Digital Innovation One (
 - Backend Node.js básico
 - Deploy completo no Kubernetes
 - Estrutura pronta para produção
+  
+## 📁 Estrutura do projeto
+📁 k8s-meu-projeto-dio/
+
+├── app/
+
+│   ├── index.html         ← Página principal
+
+│   ├── style.css          ← Estilo da página
+
+│   └── server.js          ← Backend (Node.js)
+
+├── k8s/
+
+│   ├── deployment.yaml    ← Deploy do app no Kubernetes
+
+│   └── service.yaml       ← Serviço para expor a aplicação
+
+├── assets/
+
+│   └── logo.png           ← (opcional) Imagem personalizada
+
+├── banco.sql              ← (opcional) Backup do banco
+
+├── README.md              ← Explicação do projeto
 
 ## ⚙️ Como Executar
 
