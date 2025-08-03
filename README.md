@@ -42,9 +42,6 @@ kubectl get svc
 
 Depois, acesse via NodePort no navegador.
 
-## 🎨 Link do Figma (se houver)
-[https://www.figma.com/file/exemplo](https://www.figma.com/file/exemplo)
-
 ## 💾 Banco de Dados
 O arquivo `banco.sql` contém um exemplo de estrutura de banco caso necessário.
 
